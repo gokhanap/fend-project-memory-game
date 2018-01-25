@@ -81,6 +81,11 @@ function restartGame () {
     reset('score');
     reset('moves');
 
+    // reset stars
+    if (game.stars < 3) {
+        resetStars();
+    }
+
     //stop timer
     stopTimer();
 }
@@ -104,6 +109,14 @@ function updatePanel(type) {
 function removeStar() {
     document.querySelector('.stars').firstElementChild.remove();
     game.stars--;
+}
+
+function resetStars() {
+    document.querySelector('.stars').innerHTML = '\
+        <li><i class="fa fa-star"></i></li>\
+        <li><i class="fa fa-star"></i></li>\
+        <li><i class="fa fa-star"></i></li>';
+    game.stars = 3;
 }
 
 
