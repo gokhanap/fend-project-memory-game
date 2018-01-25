@@ -1,20 +1,35 @@
 # Memory Game Project
 
-## Table of Contents
-
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+This is an interactive memory game made for udacity front-end web developer nanodegree program.
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+To get started, open `index.html` and test app's functionality.
 
-To get started, open `js/app.js` and start building out the app's functionality
+or [Click to play:](https://gokhanap.github.io/fend-project-memory-game/)
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+### Timer
+Timer starts whenever the player clicks on a card and stops whenever the player wins the game.
 
-## Contributing
+### Moves
+Every single revealed card will be counted as move.
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+### Score
+The player will get 1 point for each successful match.
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+### Stars
+The player will loose 1 star after 24 moves.
+After 48 moves user will lose another star.
+
+### Win
+The player will win the game by reaching 8 points.
+
+### Restart
+The player could restart the by clicking restart button.
+All game data and panel will be resetted.
+
+## Sources
+- [animate.css](https://github.com/daneden/animate.css/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Jquery](https://jquery.com/)
+- [Coda - Google Fonts](https://fonts.google.com/specimen/Coda)

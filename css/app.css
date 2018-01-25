@@ -12,7 +12,7 @@ html,
 body {
     width: 100%;
     height: 100%;
-    margin: 0;
+    margin: 10px;
     padding: 0;
 }
 
@@ -72,13 +72,16 @@ h1 {
 }
 
 .deck .card.show {
-    font-size: 33px;
+    cursor: default;
+    background: #ffffff;
+    color: #02ccba;
+    font-size: 38px;
 }
 
 .deck .card.match {
     cursor: default;
     background: #02ccba;
-    font-size: 33px;
+    font-size: 38px;
 }
 
 /*
@@ -87,15 +90,15 @@ h1 {
 
 .score-panel {
     text-align: left;
-    width: 345px;
+    width: 600px;
     margin-bottom: 10px;
 }
 
 .score-panel .stars {
+    width: 140px;
     margin: 0;
     padding: 0;
     display: inline-block;
-    margin: 0 5px 0 0;
 }
 
 .score-panel .stars li {
@@ -104,6 +107,27 @@ h1 {
 }
 
 .score-panel .restart {
-    float: right;
+    width: 23px;
     cursor: pointer;
+    display: inline-block;
+}
+
+.score-panel .score {
+    width: 140px;
+    display: inline-block;
+}
+
+.score-panel .moves {
+    width: 140px;
+    display: inline-block;
+}
+
+.score-panel .time {
+    width: 140px;
+    display: inline-block;
+}
+
+#playagain {
+    background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+    color: #FFF;
 }
