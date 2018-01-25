@@ -6,7 +6,7 @@ This is an interactive memory game made for udacity front-end web developer nano
 
 To get started, open `index.html` and test app's functionality.
 
-or [Click to play:](https://gokhanap.github.io/fend-project-memory-game/)
+or [click to play.](https://gokhanap.github.io/fend-project-memory-game/)
 
 ### Timer
 Timer starts whenever the player clicks on a card and stops whenever the player wins the game.
