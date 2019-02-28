@@ -1,3 +1,6 @@
+[![Memory game preview](https://gokhanapaydin.com/img/p_memory_1200.jpg)](https://gokhanap.github.io/fend-project-memory-game/)
+
+
 # Memory Game Project
 
 This is an interactive memory game made for udacity front-end web developer nanodegree program.
